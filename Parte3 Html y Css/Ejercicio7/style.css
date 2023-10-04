@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+}
+
+
+
+#contenido, #recomendacion{
+    background-color: red;
+}
+
+@media(min-width : 601px){
+
+    *{
+        font-size: 12px;
+    }
+
+    #contenido{
+        /* size: 60%; */
+        width: 60%;
+        background-color: green;
+    }
+
+    #recomendacion{
+        /* size: 30%; */
+        width: 30%;
+        background-color: blue;
+    }
+
+
+
+}
+
+@media(min-width : 800px){
+
+    *{
+        font-size: 14px;
+    }
+
+    #contenido{
+        width: 80%;
+        background-color: purple;
+    }
+
+
+    #recomendacion{
+        width: 15%;
+        background-color: yellow;
+    }
+
+}

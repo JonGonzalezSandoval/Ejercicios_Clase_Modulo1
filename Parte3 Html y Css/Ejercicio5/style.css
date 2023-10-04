@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: black;
+    color: white;
+}
+
+main ol li:nth-child(even){
+    color: red;
+}
+
+
+
+main ol li:first-child, main ol li:last-child{
+
+    color: lightgreen;
+}

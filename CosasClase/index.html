@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="" method="post">
+    <input type="text" id="name" name="name" placeholder="Escribe aquí tu nombre" required/>
+    <input type="password" id="password" name="passwrod" placeholder="Escribe la contraseña"/>
+    <input type="number" id="age" name="age" placeholder="Escribe aquí tu edad"/>
+    <input type="email" id="email" name="email" placeholder="Escribe aquí tu email"/>
+    <br>
+    <textarea id="textarea" placeholder="Escribe aquí tu historia" rows="20" cols="40" name="textarea"></textarea>
+    <br>
+    <input type="radio" name="car" value="Golf" ><label>Golf</label>
+    <input type="radio" name="car" value="Audi"><label>Audi</label>
+    <input type="radio" name="car" value="Ferrari" checked><label>Ferrari</label>
+    <input type="radio" name="car" value="Mercedes"><label>Mercedes</label>
+    <br>
+    <p>Escoge cuantos números quieras</p>
+    <input type="checkbox" name="maths" value="12" id="math_12"/><label for="math_12">12</label>
+    <input type="checkbox" name="maths" value="15" id="math_15"/><label for="math_15">15</label>
+    <input type="checkbox" name="maths" value="18" id="math_18"/><label for="math_18">18</label>
+    <input type="checkbox" name="maths" value="16" id="math_16"/><label for="math_16">16</label>
+
+    <br>
+
+
+    <select name="Color">
+        <!-- selected deja la opción que tenga la booleana y disables deshabilita la opción para poder escogerla en el desplegable -->
+        <option value="" selected disabled>Escoge tu color favorito</option>
+        <option value="Black">Black</option>
+        <option value="White">White</option>
+        <option value="Blue">Blue</option>
+        <option value="Red">Red</option>
+        <option value="Green">Green</option>
+    </select>
+    <br>
+    <input type="submit" value="Enviar" />
+    <!--<button type="submit">Envíame</button>-->
+</form>
+</body>
+</html>

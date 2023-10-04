@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    height: 1500px;
+    background-image: url('https://www.menudoarte.es/wp-content/uploads/2020/04/1830-1833-gran-ola.jpg');
+    background-repeat: repeat;
+    background-size: 20%;
+}

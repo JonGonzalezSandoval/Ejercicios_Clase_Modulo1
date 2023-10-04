@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#back-color {
+    height: 750px;
+    background-color: blueviolet;
+    background-image: url("https://ljvmiranda921.github.io/assets/png/celeste/summit_climb.jpg");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a{
+    /*Quita el subrayado*/
+    text-decoration: underline dotted black;
+    color: chartreuse;
+}
+
+
+a:visited{
+    color: orangered;
+}
+
+a:hover{
+    color: white;
+}
+
+p::first-line{
+    color: brown;
+    font-size: 30px;
+}
+
+p::first-letter{
+    color: black;
+    font-size: 50px;
+}
+
+
+
+@media(min-width : 601px) and (max-width : 749px){
+
+    p::first-line{
+        color: darksalmon;
+        font-size: 40px;
+    }
+
+div{
+    display: flex;
+}
+
+}
